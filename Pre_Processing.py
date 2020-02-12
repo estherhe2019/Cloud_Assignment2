@@ -1,5 +1,7 @@
 def Pre_Processing(string,arg1=100,arg2=1000):
     text = string
+	max_length_tweet = arg1
+	max_length_dict = arg2
 
     # remove urls and html tags
     import re
